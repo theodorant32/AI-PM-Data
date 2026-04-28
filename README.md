@@ -22,7 +22,3 @@ jupyter notebook
 ```
 
 Run notebooks in order: 01 → 02 → 03 → 04
-
-## Demo Video
-
-See `demo_video_link.txt` for the walkthrough.
