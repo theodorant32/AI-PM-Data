@@ -43,12 +43,13 @@ wheels/
 .DS_Store
 Thumbs.db
 
-# Data
-data/*.csv
+# Data - keep raw, exclude processed
+data/GlobalWeatherRepository.csv
+data/cleaned_weather.csv
 
-# Outputs
-outputs/*.csv
-outputs/plots/*.png
+# Outputs - include for portfolio
+!outputs/*.csv
+!outputs/plots/*.png
 
 # Demo
 demo_video_link.txt
