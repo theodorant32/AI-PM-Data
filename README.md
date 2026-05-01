@@ -1,12 +1,12 @@
 # Weather Forecasting with XGBoost
 
-Predicts temperature 12 hours ahead using XGBoost. Built for the PM Accelerator program to demonstrate end-to-end data science: cleaning, EDA, modeling, and interpretable results.
+Predicts temperature 12 hours ahead using XGBoost. Built for the PM Accelerator Data Scientist assessment to demonstrate end-to-end data science: cleaning, EDA, modeling, and interpretable results.
 
 ## The Problem
 
 Can we predict temperature 12 hours ahead better than just assuming "it stays the same"?
 
-**Answer:** Yes — 39.8% better.
+**Answer:** Yes - 39.8% better.
 
 ## Dataset
 
@@ -101,8 +101,8 @@ All saved to `outputs/plots/`:
 
 ## Limitations
 
-- 12-hour horizon only (not multi-day)
-- Temperature only (not precipitation)
+- 12-hour horizon only 
+- Temperature only
 - Requires continuous historical data
 
 ## Dependencies
@@ -110,11 +110,3 @@ All saved to `outputs/plots/`:
 pandas, numpy, matplotlib, seaborn, xgboost, scikit-learn
 
 See `requirements.txt` for full list.
-
-## Demo Video
-
-[Link to your 2-min screen recording]
-
----
-
-MIT License
